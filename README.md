@@ -2,7 +2,10 @@
 
 Un site web moderne et responsive pour Coupal Construction, construit avec HTML5, CSS3 et JavaScript vanilla.
 
-## 🌟 Caractéristiques
+## � **Site en ligne**
+**URL :** https://yamatoeth.github.io/CoupalConstruction/
+
+## �🌟 Caractéristiques
 
 - **Design moderne** avec effets glassmorphism et animations fluides
 - **Responsive** - Optimisé pour tous les appareils
@@ -11,6 +14,7 @@ Un site web moderne et responsive pour Coupal Construction, construit avec HTML5
 - **Formulaire de devis** avec validation en temps réel
 - **Navigation smooth scroll** et header sticky
 - **Optimisé pour l'accessibilité** (ARIA, focus management)
+- **Déploiement automatique** via GitHub Pages
 
 ## 🚀 Technologies
 
@@ -57,11 +61,35 @@ npx live-server
 
 ```
 CoupalConstruction/
-├── index.html      # Structure HTML principale
-├── styles.css      # Styles CSS avec animations
-├── script.js       # Fonctionnalités JavaScript
-└── README.md       # Documentation
+├── .github/
+│   └── workflows/
+│       └── pages.yml          # GitHub Actions pour le déploiement
+├── images/                    # Assets d'images organisés
+│   ├── 1.jpg                  # Image hero + projet résidentiel
+│   ├── 2.avif                 # Projet commercial
+│   ├── 3.jpg                  # Projet rénovation
+│   ├── 4.jpg                  # Projet résidentiel
+│   ├── 5.jpg                  # Projet commercial
+│   └── 6.jpg                  # Projet rénovation
+├── index.html                 # Structure HTML principale
+├── styles.css                 # Styles CSS avec animations
+├── script.js                  # Fonctionnalités JavaScript
+├── _config.yml               # Configuration Jekyll/GitHub Pages
+└── README.md                 # Documentation
 ```
+
+## 🚀 **Déploiement GitHub Pages**
+
+Le site est configuré pour un déploiement automatique :
+- ✅ Push vers `main` → Déploiement automatique
+- ✅ GitHub Actions workflow configuré
+- ✅ URL personnalisée : https://yamatoeth.github.io/CoupalConstruction/
+- ✅ SSL/HTTPS activé par défaut
+
+### Activation GitHub Pages :
+1. Aller dans **Settings** > **Pages** 
+2. Source : **GitHub Actions**
+3. Le déploiement se fait automatiquement !
 
 ## ✨ Fonctionnalités principales
 

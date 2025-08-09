@@ -1,0 +1,6 @@
+# Sitemap for Coupal Construction
+
+User-agent: *
+Allow: /
+
+Sitemap: https://yamatoeth.github.io/CoupalConstruction/sitemap.xml
