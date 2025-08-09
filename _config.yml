@@ -1,0 +1,30 @@
+# Configuration for GitHub Pages deployment
+
+# Include all necessary files
+include:
+  - "*.html"
+  - "*.css" 
+  - "*.js"
+  - "images/**"
+  - "README.md"
+
+# Exclude unnecessary files
+exclude:
+  - ".git/**"
+  - ".github/**"
+  - "GALLERY.md"
+  - ".gitignore"
+
+# Performance optimizations
+plugins:
+  - jekyll-compress-images
+
+# Site settings
+title: "Coupal Construction"
+description: "Professional construction and renovation services"
+url: "https://yamatoeth.github.io"
+baseurl: "/CoupalConstruction"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
