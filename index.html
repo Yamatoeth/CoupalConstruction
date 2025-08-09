@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coupal Construction — Building the Future</title>
+  <meta name="description" content="Coupal Construction — professional construction and renovation services. Project gallery, services and easy online quote form." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">CC</div>
+        <div>
+          <div style="font-weight:700">Coupal Construction</div>
+          <div style="font-size:13px;color:var(--muted)">Quality — Safety — Reliability</div>
+        </div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a href="#projects" class="navlink">Projects</a>
+        <a href="#services" class="navlink">Services</a>
+        <a href="#about" class="navlink">About</a>
+        <a href="#quote" class="cta">Get a Quote</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="badge">Since 1998</span>
+          <h1>Building sustainable spaces that last<br /><small style="font-weight:400;color:var(--muted);">Commercial & residential construction, renovation and project management</small></h1>
+          <p class="lead">Coupal Construction combines modern techniques with trusted craftsmanship to deliver projects on time and within budget. Explore our recent work and request a customized quote online.</p>
+
+          <div class="stats" role="list">
+            <div class="stat" role="listitem">
+              <strong>520+</strong>
+              Completed projects
+n            </div>
+            <div class="stat" role="listitem">
+              <strong>95%</strong>
+              Client satisfaction
+            </div>
+            <div class="stat" role="listitem">
+              <strong>50+</strong>
+              Expert staff
+            </div>
+          </div>
+
+        </div>
+
+        <aside class="hero-card" aria-hidden="false">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1c3e6c6f2f9b9d9f0d0f4b1c5b2f6a78" alt="construction site aerial"/>
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <a href="#quote" class="submit" style="background:transparent;color:var(--accent);border:1px solid var(--accent)">Request Quote</a>
+            <a href="#projects" class="submit" style="background:var(--accent);color:white">View Projects</a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="services">
+        <h2 class="section-title">Services</h2>
+        <p class="lead">From ground-up construction to interior renovation and project management — we deliver quality at every stage.</p>
+        <div class="services" aria-label="Services list">
+          <div class="service">
+            <h3>General Contracting</h3>
+            <p class="muted">Full-service management of commercial and residential builds, with on-site supervision and safety-first approach.</p>
+          </div>
+          <div class="service">
+            <h3>Renovation & Interiors</h3>
+            <p class="muted">Kitchen, bathroom and whole-home renovations — modern finishes with durable materials.</p>
+          </div>
+          <div class="service">
+            <h3>Design & Planning</h3>
+            <p class="muted">Feasibility, permitting assistance, and 3D planning to ensure projects start right and stay on track.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 class="section-title">Project Gallery</h2>
+        <p class="lead">A curated selection of recent projects. Click an image to enlarge.</p>
+
+        <div class="filters" role="toolbar" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="renovation">Renovation</button>
+        </div>
+
+        <div class="gallery" aria-live="polite">
+          <!-- Project cards: include data-category for filtering and data-large for lightbox -->
+          <article class="project" data-category="residential" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1505691723518-36a0f4b8a99b?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc" alt="Modern house exterior" data-large="https://images.unsplash.com/photo-1505691723518-36a0f4b8a99b?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc"/>
+            <div class="meta">Seaside Residence — 2024</div>
+          </article>
+
+          <article class="project" data-category="commercial" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1529429613896-3f7b5b9f1f61?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=def" alt="Office building construction" data-large="https://images.unsplash.com/photo-1529429613896-3f7b5b9f1f61?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=def"/>
+            <div class="meta">Urban Office Park — 2023</div>
+          </article>
+
+          <article class="project" data-category="renovation" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=ghi" alt="Kitchen renovation" data-large="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=ghi"/>
+            <div class="meta">Oak Kitchen Remodel — 2022</div>
+          </article>
+
+          <article class="project" data-category="residential" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1505691723519-1e8d8f6a3e9f?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=jkl" alt="Contemporary home interior" data-large="https://images.unsplash.com/photo-1505691723519-1e8d8f6a3e9f?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=jkl"/>
+            <div class="meta">Lakeside Condo — 2024</div>
+          </article>
+
+          <article class="project" data-category="commercial" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1549388604-817d15aa0110?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=mno" alt="Retail fit-out" data-large="https://images.unsplash.com/photo-1549388604-817d15aa0110?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=mno"/>
+            <div class="meta">Retail Fit-out — 2021</div>
+          </article>
+
+          <article class="project" data-category="renovation" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=pqr" alt="Bathroom renovation" data-large="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=pqr"/>
+            <div class="meta">Master Bath — 2020</div>
+          </article>
+        </div>
+
+        <div class="lightbox" id="lightbox" aria-hidden="true">
+          <img src="" alt="Expanded project image"/>
+        </div>
+      </section>
+
+      <section id="quote">
+        <h2 class="section-title">Get an Online Quote</h2>
+        <p class="lead">Tell us about your project and we'll provide a tailored estimate within 48 hours.</p>
+
+        <div class="quote">
+          <form id="quoteForm" novalidate>
+            <div class="row">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" required placeholder="Your full name">
+              </div>
+              <div class="field">
+                <label for="company">Company (optional)</label>
+                <input id="company" name="company" type="text" placeholder="Company name">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="you@company.com">
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="+1 555 000 0000">
+              </div>
+            </div>
+
+            <div>
+              <label for="service">Nature of project</label>
+              <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option>Ground-up construction</option>
+                <option>Commercial fit-out</option>
+                <option>Residential renovation</option>
+                <option>Design & planning</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="budget">Estimated budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select range</option>
+                <option>&lt; $25k</option>
+                <option>$25k — $100k</option>
+                <option>$100k — $500k</option>
+                <option>&gt; $500k</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message">Project details</label>
+              <textarea id="message" name="message" placeholder="Describe the project, timeline, site location, constraints..."></textarea>
+            </div>
+
+            <div style="display:flex;gap:12px;align-items:center;margin-top:6px">
+              <input id="consent" type="checkbox" required>
+              <label for="consent" style="margin:0;font-size:13px;color:var(--muted)">I agree to be contacted about this quote.</label>
+            </div>
+
+            <div style="margin-top:12px">
+              <button type="submit" class="submit">Send Request</button>
+              <span id="formMsg" style="margin-left:12px;color:var(--muted)"></span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <strong>Coupal Construction</strong>
+          <div class="muted" style="margin-top:8px">123 Industrial Way, Suite 400<br/>City, State • +1 (555) 000-0000<br/>contact@coupal-construction.com</div>
+        </div>
+
+        <div>
+          <strong>Quick Links</strong>
+          <div class="muted" style="margin-top:8px">Projects • Services • About • Careers</div>
+        </div>
+
+        <div>
+          <strong>Follow</strong>
+          <div class="muted" style="margin-top:8px">LinkedIn • Facebook • Instagram</div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:28px;color:var(--muted);font-size:13px">© Coupal Construction — All rights reserved</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
